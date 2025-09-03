@@ -11,9 +11,9 @@
     <h2 style="cursor: progress;">This is an H2 heading</h2>
     <h3 style="cursor: progress;">This is an H3 heading</h3>
     <p>This is a paragraph with <strong>strong</strong> ,emphasis,<u>underline</u> and <mark>marked</mark> text.</p>
-    <a href="https://www.linkedin.com/in/somasri-sivanandham-013420381?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BHOGU6pbqSvmYX6%2FJHXcXlQ%3D%3D" style="background-color:paleturquoise; color:rosybrown;">This is my linkedin profile</a><br>
+    <a href="https://www.linkedin.com/in/somasri-sivanandham-013420381?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BHOGU6pbqSvmYX6%2FJHXcXlQ%3D%3D" style="color:rosybrown;">This is my linkedin profile</a><br>
     <br>
-    <img src="img/sample.jpg" alt="Sample image " ></img>
+    <img src="sample.jpg" style="height: 200px; width: 200px;"></img>
     <ul style="cursor: pointer;"><li>Unordered list item 1</li><li>Unordered list item 2</li></ul>
     <ol><li>Ordered list item 1</li><li>Ordered list item 2</li></ol>
     <table border="1">
@@ -33,9 +33,9 @@
     <input type="checkbox"></input>
     <label for="Subscribe">Subscribe</label>
     <br><br>
-    <input type="radio"></input>
+    <input type="radio"  id="Male" name="gen">
     <label for="Male">Male</label>
-    <input type="radio"></input>
+    <input type="radio" id="Female" name="gen">
     <label for="Female">Female</label>
     <br><br>
     <button>Submit</button>
@@ -45,5 +45,46 @@
     <small>This is a small text</small>
     <br>
     <abbr title="World Health Organization">WHO</abbr>
+    <table border="1">
+        <tr>
+            <th width="400px" colspan="4">Seminar</th>
+        </tr>
+        <tr>
+            <th rowspan="2">Day</th>
+            <th colspan="2" width="200px">Schedule</th>
+            <th rowspan="2" width="200px">Topic</th>
+        </tr>
+        <tr><th>Begin</th><th>End</th></tr>
+        <tr><td rowspan="2">monday</td>
+        <td rowspan="2">8.00am</td>
+         <td rowspan="2">5.00pm</td>
+        <td>Introduction to XML</td></tr>
+        <tr>
+            <td>Validity:DTD and relaxNG</td></tr>
+        <tr>
+            <td rowspan="3">Tuesday</td>
+            <td>8.00am</td>
+            <td>11.00am</td>
+            <td>X path</td>
+        </tr>
+        <tr>
+            <td>11.00am</td>
+            <td>02.00pm</td>
+            <td rowspan="2">XSL transformation</td>
+
+        </tr>
+        <tr>
+            <td>02.00pm</td>
+            <td>05.00pm</td>
+    
+        </tr>
+        <td>Wednesday</td>
+        <td>08.00am</td>
+        <td>11.00pm</td>
+        <td>XSL formatting objects</td>
+        <tr>
+            
+        </tr>
+    </table>
 </body>
 </html>
